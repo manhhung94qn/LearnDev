@@ -10,8 +10,6 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: Hpbvn123
     ports: 
       - 27777:27017
-    volumes: 
-      - ./storageDB:/data/db
 
   mongo-express:
     image: mongo-express
