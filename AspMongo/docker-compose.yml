@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: Hpbvn123
+    ports: 
+      - 27777:27017
+    volumes: 
+      - ./storageDB:/data/db
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: Hpbvn123
+    depends_on: 
+      - mongo
+      
+  web:
+    build: .
+    ports: 
+      - 52014:80
+      - 52015:443
+    depends_on: 
+      - mongo

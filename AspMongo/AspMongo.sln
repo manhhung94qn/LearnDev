@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMongo", "AspMongo.csproj", "{F4D90AAB-7EE2-49F4-BDD2-2C2140B15D99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMongo", "AspMongo.csproj", "{A1098E47-EA13-44F0-877B-70E7EA2B316F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4D90AAB-7EE2-49F4-BDD2-2C2140B15D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4D90AAB-7EE2-49F4-BDD2-2C2140B15D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4D90AAB-7EE2-49F4-BDD2-2C2140B15D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4D90AAB-7EE2-49F4-BDD2-2C2140B15D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1098E47-EA13-44F0-877B-70E7EA2B316F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1098E47-EA13-44F0-877B-70E7EA2B316F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1098E47-EA13-44F0-877B-70E7EA2B316F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1098E47-EA13-44F0-877B-70E7EA2B316F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {960DE88E-7F54-4515-946B-90410888B36C}
+		SolutionGuid = {09BA9873-BE5E-4700-92ED-13F786EFCB8F}
 	EndGlobalSection
 EndGlobal
