@@ -38,7 +38,7 @@ namespace AspMongo.Controllers
 			var mongoClientSettings = MongoClientSettings.FromUrl(mongoConnectionUrl);
 			mongoClientSettings.ClusterConfigurator = _actionDelegateHandleCommandStartedEvent;
 			var client = new MongoClient(mongoClientSettings);
-			var database = client.GetDatabase("testDB");
+			var database = client.GetDatabase("test");
 			var collection = database.GetCollection<BsonDocument>("inventory");
 			var filterBuilder = Builders<BsonDocument>.Filter;
 			var filter = filterBuilder.Eq("status", "A");
